@@ -1,0 +1,20 @@
+# Copyrighted game data
+*.zip
+*.7z
+*.chd
+*.bin
+*.rom
+roms/
+assets/dumps/
+
+# Build outputs
+build/
+dist/
+*.exe
+*.AppImage
+*.obj
+*.o
+*.pdb
+__pycache__/
+*.pyc
+.vs/
