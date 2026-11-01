@@ -69,7 +69,7 @@ uint8_t gr_bus_read8(uint32_t address)
     if (address < 0x210000) return b->ram[address - 0x200000];
     if (address >= 0x304000 && address < 0x310000) return b->tile_ram[address - 0x304000];
     if (address == 0x600000 || address == 0x600001) {
-        uint16_t v = 0x00FF; /* SW1: normal difficulty, 2 lives, Guardians title */
+        uint16_t v = 0xFFFF; /* SW1: normal difficulty, 2 lives, Guardians title */
         return address & 1 ? (uint8_t)v : (uint8_t)(v >> 8);
     }
     if (address == 0x600002 || address == 0x600003) {
@@ -77,11 +77,11 @@ uint8_t gr_bus_read8(uint32_t address)
         return address & 1 ? (uint8_t)v : (uint8_t)(v >> 8);
     }
     if (address == 0x700000 || address == 0x700001) {
-        uint16_t v = (uint16_t)~((b->inputs & 0x00FFu) | (b->inputs >> 8 & 0xFF00u));
+        uint16_t v = (uint16_t)(0xFF00u | (~b->inputs & 0x00FFu));
         return address & 1 ? (uint8_t)v : (uint8_t)(v >> 8);
     }
     if (address == 0x700002 || address == 0x700003) {
-        uint16_t v = (uint16_t)~(b->inputs >> 8);
+        uint16_t v = (uint16_t)(0xFF00u | (~(b->inputs >> 8) & 0x00FFu));
         return address & 1 ? (uint8_t)v : (uint8_t)(v >> 8);
     }
     if (address == 0x700004 || address == 0x700005) {

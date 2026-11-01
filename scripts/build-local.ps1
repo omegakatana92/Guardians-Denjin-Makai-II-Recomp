@@ -4,6 +4,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+$Rom = (Resolve-Path $Rom).Path
 $root = Split-Path -Parent $PSScriptRoot
 Push-Location $root
 try {
