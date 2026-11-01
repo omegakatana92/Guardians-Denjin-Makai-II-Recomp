@@ -1,0 +1,287 @@
+# Guardians dynamic entry seeds discovered from MAME reference PC samples.
+# Addresses only; no ROM data.  tools/recompile68k.py uses these as analysis roots.
+func 00027A handler
+func 00027C handler
+func 00027E handler
+func 000280 handler
+func 000282 handler
+func 0002A4 handler
+func 0002A6 handler
+func 0002AA handler
+func 0002AE handler
+func 0002B0 handler
+func 0002B2 handler
+func 0002B4 handler
+func 0002B6 handler
+func 0002B8 handler
+func 0002BC handler
+func 0002D2 handler
+func 0002E8 handler
+func 0002EA handler
+func 0002EC handler
+func 0002EE handler
+func 0002F0 handler
+func 0002F2 handler
+func 0002F4 handler
+func 0002F6 handler
+func 0002F8 handler
+func 000620 handler
+func 000622 handler
+func 000626 handler
+func 00062C handler
+func 00062E handler
+func 000634 handler
+func 000646 handler
+func 00064E handler
+func 000654 handler
+func 000660 handler
+func 000670 handler
+func 000672 handler
+func 000674 handler
+func 000676 handler
+func 00095C handler
+func 00095E handler
+func 000960 handler
+func 000962 handler
+func 0009EC handler
+func 0009EE handler
+func 000A0A handler
+func 000A0C handler
+func 007AE6 handler
+func 007AEC handler
+func 007AF8 handler
+func 007B00 handler
+func 007B04 handler
+func 007B08 handler
+func 007B68 handler
+func 007B8E handler
+func 007B90 handler
+func 007B92 handler
+func 00A9BA handler
+func 00B09E handler
+func 00B254 handler
+func 00B256 handler
+func 00B25A handler
+func 00B8E4 handler
+func 00B8E6 handler
+func 00B8E8 handler
+func 00B8EA handler
+func 00B8EC handler
+func 00B8EE handler
+func 00BC52 handler
+func 00BC54 handler
+func 00BC56 handler
+func 00BC94 handler
+func 00C512 handler
+func 00C51A handler
+func 138072 handler
+func 138290 handler
+func 13829E handler
+func 1382A2 handler
+func 1382A6 handler
+func 1382AC handler
+func 1382B0 handler
+func 1382B2 handler
+func 1382B4 handler
+func 1382B8 handler
+func 1382BA handler
+func 1382BC handler
+func 1382BE handler
+func 1382C0 handler
+func 1382C4 handler
+func 1382C8 handler
+func 1382CA handler
+func 1382CE handler
+func 1382D0 handler
+func 1382D2 handler
+func 1382DA handler
+func 1382DE handler
+func 1382E0 handler
+func 1382E2 handler
+func 1382E4 handler
+func 1382EC handler
+func 1382F0 handler
+func 1382F2 handler
+func 1382F4 handler
+func 1382F6 handler
+func 138322 handler
+func 138334 handler
+func 138336 handler
+func 138338 handler
+func 13833A handler
+func 13833C handler
+func 138344 handler
+func 138348 handler
+func 138576 handler
+func 138580 handler
+func 13858A handler
+func 13859C handler
+func 13859E handler
+func 1387F4 handler
+func 138816 handler
+func 13881A handler
+func 138826 handler
+func 00231E jump-table entry reached dynamically
+func 0104CE embedded script handler reached through jmp (A4)
+func 0022DA script dispatch target
+func 0022B2 script dispatch table entry
+func 0022B6 script dispatch table entry
+func 0022BA script dispatch table entry
+func 0022BE script dispatch table entry
+func 0022C2 script dispatch table entry
+func 0022C6 script dispatch table entry
+func 0022CA script dispatch table entry
+func 0022CE script dispatch table entry
+func 0022D2 script dispatch table entry
+func 0022D6 script dispatch table entry
+func 0022DA script dispatch table entry
+func 0022DE script dispatch table entry
+func 0022E2 script dispatch table entry
+func 0022E6 script dispatch table entry
+func 0022EA script dispatch table entry
+func 0022EE script dispatch table entry
+func 0022F2 script dispatch table entry
+func 0022F6 script dispatch table entry
+func 0022FA script dispatch table entry
+func 0022FE script dispatch table entry
+func 002302 script dispatch table entry
+func 002306 script dispatch table entry
+func 00230A script dispatch table entry
+func 00230E script dispatch table entry
+func 002312 script dispatch table entry
+func 002316 script dispatch table entry
+func 00231A script dispatch table entry
+func 00231E script dispatch table entry
+func 002322 script dispatch table entry
+func 002326 script dispatch table entry
+func 00232A script dispatch table entry
+func 00232E script dispatch table entry
+func 002332 script dispatch table entry
+func 002336 script dispatch table entry
+func 00233A script dispatch table entry
+func 00233E script dispatch table entry
+func 002342 script dispatch table entry
+func 002346 script dispatch table entry
+func 00234A script dispatch table entry
+func 00234E script dispatch table entry
+func 002352 script dispatch table entry
+func 002356 script dispatch table entry
+func 00235A script dispatch table entry
+func 00235E script dispatch table entry
+func 002362 script dispatch table entry
+func 002366 script dispatch table entry
+func 00236A script dispatch table entry
+func 00236E script dispatch table entry
+func 002372 script dispatch table entry
+func 002376 script dispatch table entry
+func 00237A script dispatch table entry
+func 00237E script dispatch table entry
+func 002382 script dispatch table entry
+func 002386 script dispatch table entry
+func 00238A script dispatch table entry
+func 00238E script dispatch table entry
+func 002392 script dispatch table entry
+func 002396 script dispatch table entry
+func 00239A script dispatch table entry
+func 00239E script dispatch table entry
+func 0023A2 script dispatch table entry
+func 0023A6 script dispatch table entry
+func 0023AA script dispatch table entry
+func 0023AE script dispatch table entry
+func 0023B2 script dispatch table entry
+func 0023B6 script dispatch table entry
+func 0023BA script dispatch table entry
+func 0023BE script dispatch table entry
+func 0023C2 script dispatch table entry
+func 0023C6 script dispatch table entry
+func 0023CA script dispatch table entry
+func 0023CE script dispatch table entry
+func 0023D2 script dispatch table entry
+func 0023D6 script dispatch table entry
+func 0023DA script dispatch table entry
+func 0023DE script dispatch table entry
+func 0023E2 script dispatch table entry
+func 0023E6 script dispatch table entry
+func 0023EA script dispatch table entry
+func 0023EE script dispatch table entry
+func 0023F2 script dispatch table entry
+func 0023F6 script dispatch table entry
+func 0023FA script dispatch table entry
+func 1380E6 sound command dispatch table entry
+func 1380EA sound command dispatch table entry
+func 1380EE sound command dispatch table entry
+func 1380F2 sound command dispatch table entry
+func 1380F6 sound command dispatch table entry
+func 1380FA sound command dispatch table entry
+func 1380FE sound command dispatch table entry
+func 021892 discovered by iterative native execution
+func 001EB2 discovered by iterative native execution
+func 001EE6 discovered by iterative native execution
+func 021940 discovered by iterative native execution
+func 0219C6 discovered by iterative native execution
+func 008E62 discovered by iterative native execution
+func 003F8E discovered by iterative native execution
+func 006312 discovered by iterative native execution
+func 003EEE discovered by iterative native execution
+func 003FC2 discovered by iterative native execution
+func 003E02 discovered by iterative native execution
+func 003EB6 discovered by iterative native execution
+func 003EB2 discovered by iterative native execution
+func 003EBA discovered by iterative native execution
+func 003FD6 discovered by iterative native execution
+func 003FDA discovered by iterative native execution
+func 003E06 discovered by iterative native execution
+func 003FFA discovered by iterative native execution
+func 003E2E discovered by iterative native execution
+func 003DF2 discovered by iterative native execution
+func 0A2372 discovered by iterative native execution
+func 003E1A discovered by iterative native execution
+func 003FA6 discovered by iterative native execution
+func 003DF6 discovered by iterative native execution
+func 0A239C discovered by iterative native execution
+func 003EEA discovered by iterative native execution
+func 0A23C0 discovered by iterative native execution
+func 003EE2 discovered by iterative native execution
+func 003E0E discovered by iterative native execution
+func 003FB2 discovered by iterative native execution
+func 003F1A discovered by iterative native execution
+func 010290 discovered by iterative native execution
+func 0102AA discovered by iterative native execution
+func 003DFA discovered by iterative native execution
+func 0204B0 discovered by iterative native execution
+func 003EFE discovered by iterative native execution
+func 004026 discovered by iterative native execution
+func 004046 discovered by iterative native execution
+func 007A6A discovered by iterative native execution
+func 007A72 discovered by iterative native execution
+func 007A6E discovered by iterative native execution
+func 003EE6 discovered by iterative native execution
+func 007A76 discovered by iterative native execution
+func 003F46 discovered by iterative native execution
+func 005646 discovered by iterative native execution
+func 003DEE discovered by iterative native execution
+func 007A7A discovered by iterative native execution
+func 007A7E discovered by iterative native execution
+func 003F1E discovered by iterative native execution
+func 004E98 discovered by iterative native execution
+func 003E86 discovered by iterative native execution
+func 003E46 discovered by iterative native execution
+func 003E0A discovered by iterative native execution
+func 004022 discovered by iterative native execution
+func 005616 discovered by iterative native execution
+func 003E5E discovered by iterative native execution
+func 003FB6 discovered by iterative native execution
+func 002974 discovered by iterative native execution
+func 003E82 discovered by iterative native execution
+func 003E42 discovered by iterative native execution
+func 003EC2 discovered by iterative native execution
+func 00B4DA discovered by iterative native execution
+func 00B4A2 discovered by iterative native execution
+func 02CCC6 discovered by iterative native execution
+func 003F16 discovered by iterative native execution
+func 004DE8 discovered by iterative native execution
+func 003ECA discovered by iterative native execution
+func 003F9E discovered by iterative native execution
+func 003FA2 discovered by iterative native execution
+func 02CD32 discovered by iterative native execution
+func 02CD58 discovered by iterative native execution

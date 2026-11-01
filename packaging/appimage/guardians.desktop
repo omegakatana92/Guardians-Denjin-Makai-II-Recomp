@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Guardians: Denjin Makai II
+Comment=Native recompilation (user-supplied ROM)
+Exec=guardians --rom %f
+Icon=guardians
+Terminal=false
+Categories=Game;ArcadeGame;
+MimeType=application/zip;

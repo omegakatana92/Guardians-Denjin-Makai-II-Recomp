@@ -1,0 +1,37 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  source-checks:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python syntax
+        run: python -m py_compile tools/verify_rom.py tools/rom_set.py tools/game_profile.py tools/recompile68k.py tools/iterate_seeds.py
+
+      - name: Install SDL2 (Linux)
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libsdl2-dev ninja-build
+
+      - name: Configure core (no ROM in CI)
+        run: cmake -S . -B build/cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DGRDIANS_ROM=
+
+      - name: Build core
+        run: cmake --build build/cmake
+
+      # A full native build needs the user's copyrighted grdians.zip.  It is
+      # deliberately not downloaded or stored in CI.  Run scripts/build-local.*
+      # locally for the verified boot/translation test.
