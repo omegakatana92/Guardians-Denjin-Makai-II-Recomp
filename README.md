@@ -20,8 +20,8 @@ game and no instruction fetch/decode remains in the shipped binary.
   ROM/RAM self-check, the sound-driver code and the interrupt-driven main loop
   at `00095C`. `tools/seeds.txt` records dynamically discovered entry points.
 - **Milestone 1 — static translation, board model, headless boot: complete.**
-  `tools/recompile68k.py` translates 7,600+ instructions into 460+ C basic
-  blocks with no unsupported instruction. The headless runner reaches the main
+  `tools/recompile68k.py` translates 7,638 instructions into 443 analysed
+  functions with no unsupported instruction. The headless runner reaches the main
   loop, services VBLANK interrupts, and runs 1,200 frames without missing
   translated code. At frame 300 the native work RAM matches MAME's reference
   dump byte-for-byte for 99.54% of the 64 KiB (the remaining differences are
